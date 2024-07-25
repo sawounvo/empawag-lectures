@@ -51,4 +51,6 @@ R [@Rsoftware] est un langage de programmation gratuit destiné aux évaluations
 
 You can learn more about controlling the appearance of RevealJS output here: <https://quarto.org/docs/presentations/revealjs/>
 
-## References
+[:warning:]{.emoji-size} L'installation intégrale du tidyverse peut prendre un certain temps.
+
+<!-- ## References -->
