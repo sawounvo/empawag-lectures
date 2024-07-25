@@ -20,4 +20,3 @@ contributes:
       multiplex: true
       chalkboard: true
       transition: slide
-from: markdown+emoji
