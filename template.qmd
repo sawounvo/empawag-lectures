@@ -1,6 +1,7 @@
 ---
 format:
   empawag_lectures-revealjs: default
+from: markdown+emoji
 ---
 
 ```{r setup, include=FALSE}
