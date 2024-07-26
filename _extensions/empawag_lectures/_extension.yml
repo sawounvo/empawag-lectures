@@ -6,7 +6,7 @@ contributes:
       width: 1280 
       height: 720
       logo: https://github.com/sawounvo/empawag_lectures/blob/main/.materials/logos/Empawag_solutions_logo.png?raw=true
-      footer: Sinclair Awounvo | Introduction à R 
+      footer: Sinclair Awounvo | tidyverse 
       highlight-style: ayu-mirage
       code-line-numbers: true
       code-copy: true
@@ -20,3 +20,4 @@ contributes:
       multiplex: true
       chalkboard: true
       transition: slide
+      slide-number: c
