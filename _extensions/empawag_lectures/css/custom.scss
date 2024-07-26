@@ -97,10 +97,25 @@ $code-block-border-color: $theme-mirage;
   color: $theme-gold;
 }
 
+/* style code output for all slides */
+.reveal .cell-output { 
+  border: solid 1px $theme-mirage;
+}
 
+/* style code output for specific slides */
+.reveal .custom-code-output .cell-output {
+  font-size: 0.9em;
+}
 
+/* used in combi. with the latex command \phantom{} it allows to continue a sublist on the next slide */
+.reveal .list-no-first-bullet li:first-child {
+  list-style: none
+}
 
-
+/* used to set the maximal height for the R code outpout box */
+.reveal .custom-code-output-height .cell-output code {
+  max-height: 350px;
+}
 
 
 
