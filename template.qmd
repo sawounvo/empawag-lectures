@@ -5,6 +5,8 @@ from: markdown+emoji
 ---
 
 ```{r setup, include=FALSE}
+#| label: setup
+#| include: false
 
 knitr::opts_chunk$set(
   echo = TRUE,
@@ -13,6 +15,14 @@ knitr::opts_chunk$set(
 
 ```
 
+
+```{r}
+#| label: libraries
+#| include: false
+
+library(tidyverse)
+
+```
 ------------------------------------------------------------------------
 
 ::: {.img-centering}
@@ -52,5 +62,7 @@ R [@Rsoftware] est un langage de programmation gratuit destiné aux évaluations
 You can learn more about controlling the appearance of RevealJS output here: <https://quarto.org/docs/presentations/revealjs/>
 
 [:warning:]{.emoji-size} L'installation intégrale du tidyverse peut prendre un certain temps.
+
+
 
 <!-- ## References -->
