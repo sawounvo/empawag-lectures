@@ -30,6 +30,9 @@ $code-block-bg: $theme-mirage;
 $code-color: $theme-gold; /* inline code color */
 $code-block-border-color: $theme-mirage;
 
+$btn-code-copy-color: $theme-yellow; /* color of copy button in code block */
+$btn-code-copy-color-active: $theme-blue; /* color of copy button  on hover in code block */
+
 /*-- scss:rules --*/
 
 .reveal .slide-logo { /* chnage logo size in the footer */
