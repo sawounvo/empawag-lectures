@@ -6,7 +6,7 @@ contributes:
       width: 1280 
       height: 720
       logo: https://github.com/sawounvo/empawag_lectures/blob/main/.materials/logos/Empawag_solutions_logo.png?raw=true
-      footer: Sinclair Awounvo | tidyverse 
+      footer: Sinclair Awounvo | ggplot2 
       highlight-style: ayu-mirage
       code-line-numbers: true
       code-copy: true
